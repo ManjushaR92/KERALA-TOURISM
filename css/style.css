@@ -1,0 +1,143 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+
+/* home.htm starts here */
+.myfont{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 50pt;
+}
+.myfont2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    padding-right:30pt;    
+}
+.mymargin
+{
+    margin-right: 10pt;
+}
+.carousel-caption h1{
+    font-style: italic;
+    font-size: 30pt;
+    color:yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.carousel-caption p{
+    font-size: 14pt;
+}
+#explore{
+    text-align: center;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+}
+#content{
+    padding:0pt 100pt;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:green;
+    color: white;
+    text-align: center;
+
+}
+/* home.htm end here */
+
+
+/* Log.htm starts here */
+.form-boX{
+    padding: 25px;
+}
+.box1{
+    padding-left:400pt;
+    padding-right: 550pt;
+}
+#account{
+    padding-top: 10pt;
+}
+/* Log.html ends here */
+
+
+
+/* Sign.html starts here */
+.box{
+    padding-left: 400pt;
+    padding-right: 450pt ;
+}
+/* Sign.htm ends here */
+
+/* District.html stars here */
+
+
+/* District.html ends here */
+
+
+/* Thiruvananthapurm.html starts here */
+.heading{
+    color:darkred;
+    text-align:center;
+    font-weight: bold;
+}
+
+.paragraph{
+    text-align: justify;
+}
+/* Thiruvananathapuram.html ends here */
+
+
+
+
+
+
+
+/* District.htm stars here */
+.col-md-8{
+    color:white;
+    text-align: justify;
+    margin-top: 10pt;
+}
+/* District.htm ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
