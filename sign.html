@@ -55,52 +55,46 @@
       
       <!-- Carousel ends here -->
 
-        <h3 style="text-align:left; padding-top: 20pt;padding-left: 75px; color: rgba(0, 153, 255, 0.774);">Create Your Account</h3>
-        <div class="col-lg-3">
-
-       
-        <form>
-            <div class="box" style="padding: 50px; margin-left: 25px; border: 2px blue solid;">
-      
-              <br>
-          <div class="form-group">
-            <label for="exampleInputEmail1" style="color:black; font-size: large;">Username</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Username" >
-          </div>
-          <div class="form-group">
-              <label for="exampleInputEmail1" style="color:black; font-size: large;">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1" style="color:black; font-size: large;">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
-          </div>
-          <div class="form-group">
-              <label for="exampleInputPassword1" style="color:black; font-size: large;">Confirm Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Retype your Password">
-          </div>
-          <div class="form-group">
-              <label for="exampleInputPassword1" style="color:black; font-size: large;">Mobile Number</label>
-              <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Enter your mobile number">
-          </div> 
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions</label>
-            <small id="emailHelp" class="form-text text-muted">You must agree before creating your account.</small>
-          </div>
-          <a href="log.htm" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="width: 200pt;">Create New Account</a>
-         
+      <h1 style="text-align: center; padding-top: 20pt; color:black;">Create Your Account</h1>
+  
+      <form action="login.html" onsubmit="return validation()">
+        <div class="box">
+            <br>
+        <div class="form-group">
+          <label for="username" style="color:black; font-size: large;">Username</label>
+          <input type="text" class="form-control" id="username" placeholder="Enter your Username" >
+          <span id="usererror" class="text-danger font-weight-bold"></span>
         </div>
-        </form> 
+        <div class="form-group"> 
+            <label for="emails" style="color:black; font-size: large;">Email</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter your email">
+            <span id="emailerror" class="text-danger font-weight-bold"></span>
+          </div>
+        <div class="form-group">
+          <label for="password" style="color:black; font-size: large;">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter your Password">
+          <small id="Help" class="form-text">Password must contain minimum 8 characters including atleast one uppercase one lower case and one number.</small>
+          <span id="passworderror" class="text-danger font-weight-bold"></span>
+          </div>
+        <div class="wrap text-center">
+          <p class="strength" id="length"></p>
+        </div>
+        <div class="form-group">
+            <label for="confirmPWD" style="color:black; font-size: large;">Confirm Password</label>
+            <input type="password" class="form-control" id="cpassword" placeholder="Retype your Password">
+            <span id="cpassworderror" class="text-danger font-weight-bold"></span>
+          </div>
+        <div class="form-group">
+            <label for="number" style="color:black; font-size: large;">Mobile Number</label>
+            <input type="text" class="form-control" id="number" placeholder="Enter your mobile number">
+            <span id="mobileerror" class="text-danger font-weight-bold"></span>
+          </div> 
+          <br>
+        <button class="btn btn-primary" href="login.html" role="button" type="submit" id="submit" style="width: 300pt;">Sign Up</button>
        
       </div>
-     
-
-  
-
-
-    </div> 
-</div>     
+      </form>
+    
+      <script src="sign.js"></script>
 </body>
 </html>
