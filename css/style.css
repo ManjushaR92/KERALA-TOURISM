@@ -2,6 +2,13 @@
   padding: 0rem;
   margin: 0rem;
 }
+  @media screen and (max-width:500px){
+    #navBarNav ul{
+      float: none;
+      display: block;
+    }
+    
+  }
 
 
 /* home.html starts here */
