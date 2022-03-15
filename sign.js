@@ -10,7 +10,7 @@ function validation(){
     var usercheck = /^[A-Za-z.]{3,20}$/;
     var passwordcheck = /^(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])[a-zA-Z0-9!@#$%^&*]{8,16}$/;
     var passwordcheckk = /^(?=.*[A-Z])(?=.*[a-z])[a-zA-Z!@#$%^&*]{8,16}$/;
-    var passwordcheckkk = /^(?=.*[a-z])[a-z]{1,6}$/;
+    var passwordcheckk = /^(?=.*[a-z])[a-z]{1,6}$/;
     var emailcheck = /^[A-Za-z0-9]{3,}@[A-Za-z]{3,}[.]{1}[a-z]{2,3}$/;
     var mobilecheck = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
     
