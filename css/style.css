@@ -78,8 +78,10 @@ footer{
   padding: 25px;
 }
 .box1{
-  padding-left:400pt;
-  padding-right: 550pt;
+  margin-top: 100px;
+  margin-right: 125px;
+  /* padding-left:400pt; */
+  padding-right: 1050pt; 
 }
 #account{
   padding-top: 10pt;

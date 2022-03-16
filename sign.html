@@ -14,7 +14,7 @@
 
 </head>
       <!-- body starts here -->
-      <body background="./welcome/backg.jpg" style="background-size: cover;">
+      <body background="./welcome/backg.jpg" style="background-size: cover no-repeat;">
            <!-- nav bar starts here -->
    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: none;">
     <div class="container-fluid">
@@ -50,24 +50,22 @@
      <div class="col-lg-4"></div>
       
       <!-- Carousel ends here -->
-
-      <h1 style="text-align: center; padding-top: 20pt; color:black;">Create Your Account</h1>
-  
       <form action="login.html" onsubmit="return validation()">
         <div class="box">
+          <label for="signAccount" style="color: black;font-size: x-large;">Create Your Account</label>
             <br>
         <div class="form-group">
-          <label for="username" style="color:black; font-size: large;">Username</label>
+          <label for="username" style="color:black; font-size:medium;">Username</label>
           <input type="text" class="form-control" id="username" placeholder="Enter your Username" >
           <span id="usererror" class="text-danger font-weight-bold"></span>
         </div>
         <div class="form-group"> 
-            <label for="emails" style="color:black; font-size: large;">Email</label>
+            <label for="emails" style="color:black; font-size:medium;">Email</label>
             <input type="text" class="form-control" id="email" placeholder="Enter your email">
             <span id="emailerror" class="text-danger font-weight-bold"></span>
           </div>
         <div class="form-group">
-          <label for="password" style="color:black; font-size: large;">Password</label>
+          <label for="password" style="color:black; font-size: medium;">Password</label>
           <input type="password" class="form-control" id="password" placeholder="Enter your Password">
           <small id="Help" class="form-text">Password must contain minimum 8 characters including atleast one uppercase one lower case and one number.</small>
           <span id="passworderror" class="text-danger font-weight-bold"></span>
@@ -76,12 +74,12 @@
           <p class="strength" id="length"></p>
         </div>
         <div class="form-group">
-            <label for="confirmPWD" style="color:black; font-size: large;">Confirm Password</label>
+            <label for="confirmPWD" style="color:black; font-size:medium;">Confirm Password</label>
             <input type="password" class="form-control" id="cpassword" placeholder="Retype your Password">
             <span id="cpassworderror" class="text-danger font-weight-bold"></span>
           </div>
         <div class="form-group">
-            <label for="number" style="color:black; font-size: large;">Mobile Number</label>
+            <label for="number" style="color:black; font-size:medium;">Mobile Number</label>
             <input type="text" class="form-control" id="number" placeholder="Enter your mobile number">
             <span id="mobileerror" class="text-danger font-weight-bold"></span>
           </div> 
